@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Dtos\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="Profiles\" />
+    <None Remove="Validators\" />
+    <None Remove="ExceptionHandlings\" />
+    <None Remove="Middlewares\" />
+    <None Remove="Helpers\" />
+    <None Remove="Helpers\Interfaces\" />
+    <None Remove="Dtos\BaseDtos\" />
+    <None Remove="Dtos\AdvertaismetDtos\" />
+    <None Remove="Dtos\CategoryDtos\" />
+    <None Remove="Dtos\CityDtos\" />
+    <None Remove="Dtos\CompanyDtos\" />
+    <None Remove="Dtos\CompanyContactDtos\" />
+    <None Remove="Dtos\EmploymentTypeDtos\" />
+    <None Remove="Dtos\JobDtos\" />
+    <None Remove="Dtos\JobInformationDtos\" />
+    <None Remove="Dtos\JobInformationTypeDtos\" />
+    <None Remove="Dtos\PhoneNumberHeadlingDtos\" />
+    <None Remove="Dtos\PositionDtos\" />
+    <None Remove="Dtos\WishListDtos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dtos\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Profiles\" />
+    <Folder Include="Validators\" />
+    <Folder Include="ExceptionHandlings\" />
+    <Folder Include="Middlewares\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Helpers\Interfaces\" />
+    <Folder Include="Dtos\BaseDtos\" />
+    <Folder Include="Dtos\AdvertaismetDtos\" />
+    <Folder Include="Dtos\CategoryDtos\" />
+    <Folder Include="Dtos\CityDtos\" />
+    <Folder Include="Dtos\CompanyDtos\" />
+    <Folder Include="Dtos\CompanyContactDtos\" />
+    <Folder Include="Dtos\EmploymentTypeDtos\" />
+    <Folder Include="Dtos\JobDtos\" />
+    <Folder Include="Dtos\JobInformationDtos\" />
+    <Folder Include="Dtos\JobInformationTypeDtos\" />
+    <Folder Include="Dtos\PhoneNumberHeadlingDtos\" />
+    <Folder Include="Dtos\PositionDtos\" />
+    <Folder Include="Dtos\WishListDtos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.20" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.20">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.20">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.20" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.20" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.20" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj" />
+  </ItemGroup>
+</Project>
