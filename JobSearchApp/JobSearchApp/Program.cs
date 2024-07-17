@@ -1,11 +1,11 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using JobSearchApp;
+using Service.Middlewares;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.Registration(builder.Configuration);
 
 var app = builder.Build();
 
@@ -17,9 +17,12 @@ if (app.Environment.IsDevelopment())
 }
 
 
+app.UseMiddleware<ExceptionMiddleware>();
 app.UseHttpsRedirection();
-
+app.UseStaticFiles();
+app.UseAuthentication();
 app.UseAuthorization();
+app.UseCors();
 
 app.MapControllers();
 

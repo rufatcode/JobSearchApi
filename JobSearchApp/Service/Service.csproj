@@ -29,6 +29,19 @@
     <None Remove="Dtos\PhoneNumberHeadlingDtos\" />
     <None Remove="Dtos\PositionDtos\" />
     <None Remove="Dtos\WishListDtos\" />
+    <None Remove="Validators\AdvertaismetValidators\" />
+    <None Remove="Validators\CategoryValidators\" />
+    <None Remove="Validators\CityValidators\" />
+    <None Remove="Validators\CompanyValiadtors\" />
+    <None Remove="Validators\EmploymentTypeValidators\" />
+    <None Remove="Validators\JobValidators\" />
+    <None Remove="Validators\JobInformationValidators\" />
+    <None Remove="Validators\JobInformationTypeValidators\" />
+    <None Remove="Validators\PositionValidators\" />
+    <None Remove="Dtos\PhoneNumberDtos\" />
+    <None Remove="Validators\PhoneNumberValidators\" />
+    <None Remove="Dtos\AccountDtos\" />
+    <None Remove="Dtos\UserDtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dtos\" />
@@ -53,6 +66,19 @@
     <Folder Include="Dtos\PhoneNumberHeadlingDtos\" />
     <Folder Include="Dtos\PositionDtos\" />
     <Folder Include="Dtos\WishListDtos\" />
+    <Folder Include="Validators\AdvertaismetValidators\" />
+    <Folder Include="Validators\CategoryValidators\" />
+    <Folder Include="Validators\CityValidators\" />
+    <Folder Include="Validators\CompanyValiadtors\" />
+    <Folder Include="Validators\EmploymentTypeValidators\" />
+    <Folder Include="Validators\JobValidators\" />
+    <Folder Include="Validators\JobInformationValidators\" />
+    <Folder Include="Validators\JobInformationTypeValidators\" />
+    <Folder Include="Validators\PositionValidators\" />
+    <Folder Include="Dtos\PhoneNumberDtos\" />
+    <Folder Include="Validators\PhoneNumberValidators\" />
+    <Folder Include="Dtos\AccountDtos\" />
+    <Folder Include="Dtos\UserDtos\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
@@ -71,6 +97,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.20" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.20" />
     <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.20" />
+    <PackageReference Include="CloudinaryDotNet" Version="1.26.2" />
+    <PackageReference Include="MediatR" Version="12.3.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Data\Data.csproj" />

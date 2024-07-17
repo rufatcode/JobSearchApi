@@ -7,7 +7,7 @@ namespace Service.Dtos.CompanyContactDtos
 	public class PostCompanyContactDto
 	{
         public int CompanyId { get; set; }
-        public int PhoneNumberHeadlingId { get; set; }
+        public int PhoneNumberId { get; set; }
         public PostCompanyContactDto()
 		{
 		}

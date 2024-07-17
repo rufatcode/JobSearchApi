@@ -17,6 +17,8 @@ namespace Data
 		 IPhoneNumberHeadlingRepository PhoneNumberHeadlingRepository { get; }
 		 IPositionRepository PositionRepository { get; }
 		 IWishListRepository WishListRepository { get; }
+		 IPhoneNumberRespository PhoneNumberRespository { get; }
+        Task<int> Complate();
     }
 }
 

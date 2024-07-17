@@ -7,7 +7,6 @@ namespace Service.Dtos.JobInformationTypeDtos
 {
 	public class GetJobInformationTypeDto:GetBaseDto
 	{
-        public int JobId { get; set; }
         public string Name { get; set; }
         public List<GetJobInformationDto> JobInformations { get; set; }
         public GetJobInformationTypeDto()

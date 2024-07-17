@@ -28,8 +28,7 @@ namespace Domain.Entities
 		[ForeignKey(nameof(Company))]
 		public int CompanyId { get; set; }
 		public Company Company { get; set; }
-		public string InformationForApply { get; set; }
-		public List<JobInformationType> JobInformationTypes { get; set; }
+		public List<JobInformation> JobInformations { get; set; }
 		public Job()
 		{
 		}

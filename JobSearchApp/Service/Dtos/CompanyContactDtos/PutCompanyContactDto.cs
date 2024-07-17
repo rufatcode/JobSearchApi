@@ -8,7 +8,7 @@ namespace Service.Dtos.CompanyContactDtos
 	public class PutCompanyContactDto:PutBaseDto
 	{
         public int CompanyId { get; set; }
-        public int PhoneNumberHeadlingId { get; set; }
+        public int PhoneNumberId { get; set; }
         public PutCompanyContactDto()
 		{
 		}

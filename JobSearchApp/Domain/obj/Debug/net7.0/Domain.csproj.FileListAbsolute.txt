@@ -1,0 +1,15 @@
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/bin/Debug/net7.0/Domain.deps.json
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/bin/Debug/net7.0/Domain.runtimeconfig.json
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/bin/Debug/net7.0/Domain.dll
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/bin/Debug/net7.0/Domain.pdb
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/obj/Debug/net7.0/Domain.dll
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/obj/Debug/net7.0/refint/Domain.dll
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/obj/Debug/net7.0/Domain.pdb
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/obj/Debug/net7.0/Domain.genruntimeconfig.cache
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/obj/Debug/net7.0/ref/Domain.dll
+/Volumes/Mac/AistGroup/JobSearchApp/JobSearchApp/Domain/obj/Debug/net7.0/Domain.sourcelink.json

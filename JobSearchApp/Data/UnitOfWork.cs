@@ -24,6 +24,7 @@ namespace Data
             PhoneNumberHeadlingRepository = new PhoneNumberHeadlingRepository(_context);
             PositionRepository = new PositionRepository(_context);
             WishListRepository = new WishListRepository(_context);
+            PhoneNumberRespository = new PhoneNumberRepository(_context);
         }
 
         public IAdvertaismetRepository AdvertaismetRepository { get; private set; }
@@ -49,6 +50,8 @@ namespace Data
         public IPositionRepository PositionRepository { get; private set; }
 
         public IWishListRepository WishListRepository { get; private set; }
+
+        public IPhoneNumberRespository PhoneNumberRespository { get; private set; }
 
         public async Task<int> Complate()
         {

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HYqhzF9MsECuIQgG+bgdMq49YWu9uuhcoZUs5/MJ+rg=",
+  "Source": "JobSearchApp",
+  "BasePath": "_content/JobSearchApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

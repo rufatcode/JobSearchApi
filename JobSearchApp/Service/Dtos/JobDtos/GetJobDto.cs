@@ -9,6 +9,7 @@ using Service.Dtos.CategoryDtos;
 using Service.Dtos.CompanyDtos;
 using Service.Dtos.PositionDtos;
 using Service.Dtos.JobInformationTypeDtos;
+using Service.Dtos.JobInformationDtos;
 
 namespace Service.Dtos.JobDtos
 {
@@ -31,7 +32,7 @@ namespace Service.Dtos.JobDtos
         public int CompanyId { get; set; }
         public GetCompanyDto Company { get; set; }
         public string InformationForApply { get; set; }
-        public List<GetJobInformationTypeDto> JobInformationTypes { get; set; }
+        public List<GetJobInformationDto> JobInformations { get; set; }
         public GetJobDto()
 		{
 		}

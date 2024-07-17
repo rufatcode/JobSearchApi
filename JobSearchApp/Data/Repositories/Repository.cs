@@ -26,6 +26,7 @@ namespace Data.Repositories
         {
             entity.CreatedAt = DateTime.Now;
             entity.RegUser = "System";
+            entity.IsActive = true;
             var resoult = _context.Entry(entity);
             resoult.State = EntityState.Added;
         }

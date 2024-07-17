@@ -9,8 +9,11 @@ namespace Domain.Entities
 		public string Name { get; set; }
 		[ForeignKey(nameof(JobInformationType))]
 		public int JobInformationTypeId { get; set; }
-	
-		public JobInformation()
+		public JobInformationType JobInformationType { get; set; }
+        [ForeignKey(nameof(Job))]
+        public int JobId { get; set; }
+
+        public JobInformation()
 		{
 		}
 	}

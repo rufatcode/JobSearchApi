@@ -9,9 +9,9 @@ namespace Domain.Entities
 		[ForeignKey(nameof(Company))]
 		public int CompanyId { get; set; }
 		public Company Company { get; set; }
-		[ForeignKey(nameof(PhoneNumberHeadling))]
-		public int PhoneNumberHeadlingId { get; set; }
-		public PhoneNumberHeadling  PhoneNumberHeadling { get; set; }
+		[ForeignKey(nameof(PhoneNumber))]
+		public int PhoneNumberId { get; set; }
+		public PhoneNumber PhoneNumber { get; set; }
 		public CompanyContact()
 		{
 		}

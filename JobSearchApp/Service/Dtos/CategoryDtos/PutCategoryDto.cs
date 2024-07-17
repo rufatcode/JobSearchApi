@@ -7,7 +7,7 @@ namespace Service.Dtos.CategoryDtos
 	public class PutCategoryDto:PutBaseDto
 	{
         public string Name { get; set; }
-        public IFormFile? ImageUrl { get; set; }
+        public IFormFile? Image { get; set; }
         public PutCategoryDto()
 		{
 		}
